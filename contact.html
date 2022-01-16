@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NESThair</title>
+  <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+</head>
+<body>
+
+  <div id="wrapper">
+
+    <!-- header begin -->
+    <header>
+      <h1>
+        京都の学生向けオーガニックヘアサロンなら<br>
+        <span>NESThair</span>
+      </h1>
+
+      <nav>
+        <ul>
+          <li><a href="#">ホーム</a></li>
+          <li><a href="#">メニュー一覧</a></li>
+          <li><a href="#">ご予約</a></li>
+        </ul>
+      </nav>
+
+      <div class="clear"></div>
+
+      <p id="nav_tel">
+        <img src="images/tel_nav.jpg" alt="お電話でのご予約はこちらまで 0120-345-6789">
+      </p>
+    </header>
+    <!-- header end -->
+
+    <!-- heading begin -->
+    <h2 id="heading" class="box-shadow">
+     ご予約・お問い合わせ
+    </h2>
+    <!-- heading end -->
+
+    <!-- left begin -->
+    <div id="left" class="box-shadow">
+      <h3>ご予約・お問い合わせフォーム</h3>
+      <p id="contact_text">
+        下記お問い合わせフォームよりご希望の日時、ご予約内容をお知らせください。<br>
+        お問い合わせの場合は、【お客様ご要望欄】に記入して送信してください。
+      </p>
+      <form>
+        <table>
+          <tr>
+            <td class="form_title">
+              <label for="form_name">お名前</label>
+            </td>
+            <td class="form_contacts">
+              <input type="text" id="from_name">
+            </td>
+          </tr>
+
+          <tr>
+            <td class="form_title">
+              <label for="form_tel">お電話番号</label>
+            </td>
+            <td class="form_contacts">
+              <input type="text" id="from_tel">
+            </td>
+          </tr>
+
+          <tr>
+            <td class="form_title">
+              <label for="form_time">ご希望日時</label>
+            </td>
+            <td class="form_contacts">
+              <input type="text" class="form_time">年
+              <input type="text" class="form_time">月
+              <input type="text" class="form_time">日
+              <input type="text" class="form_time">時から
+              <input type="text" class="form_time">時まで
+            </td>
+          </tr>
+
+          <tr>
+            <td class="form_title">
+              <label for="form_menu">ご希望メニュー</label>
+            </td>
+            <td class="form_contacts">
+              <input type="checkbox" id="menu-cut" value="カット">
+              <label for="menu-cut">カット</label>
+
+              <input type="checkbox" id="menu-color" value="カラー">
+              <label for="menu-color">カラー</label>
+
+              <input type="checkbox" id="menu-perm" value="パーマ">
+              <label for="menu-perm">パーマ</label>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="form_title">
+              <label for="form_textarea">お客様ご要望欄</label>
+            </td>
+            <td class="form_contacts">
+              <textarea id="form-textarea"></textarea>
+            </td>
+          </tr>
+        </table>
+
+        <p id="submmit">
+          <input type="submit" value="送信する">
+        </p>
+      </form>
+
+    </div>
+    <!-- left end  -->
+
+    <!-- right begin -->
+    <div id="right">
+      <ul>
+        <!-- <li class="box-shadow"><a id="contact" href="#">ご予約・お問い合わせ</a></li> -->
+        <li class="box-shadow"><a id="blog" href="#">スタイリストブログ</a></li>
+      </ul>
+    </div>
+    <!-- right end -->
+
+    <div class="clear"></div>
+
+  </div>
+  <!-- wrapper end -->
+
+  <!-- footer begin -->
+  <footer>
+    <p>copyright (c) 2010-2015 Campus inc. All Right Reserved</p>
+  </footer>
+  <!-- footer end -->
+</body>
+</html>
