@@ -62,6 +62,10 @@ div#wrapper {
   margin: 0 auto;
 }
 
+.box-shadow {
+  box-shadow: 0 2px 7px rgba(83,78,61,0.3);
+}
+
 /* ========================================
     ヘッダー用
 ========================================= */
@@ -139,7 +143,6 @@ div#image {
   height: 290px;
   margin: 20px 0 20px 0;
   border: 5px solid #fff;
-  box-shadow: 0 2px 7px rgba(83,78,61,0.3);
 }
 
 /* ========================================
@@ -147,11 +150,41 @@ div#image {
 ========================================= */
 
 div#left {
-  width: 575px;
-  height: 198px;
-  background-color: pink;
+  width: 555px;
+  height: 178px;
+  background-color: #fff;
   float: left;
   margin-right: 20px;
+  padding: 10px;
+}
+
+div#left h2 {
+  font-size: 17px;
+  font-weight: bold;
+  color: #734339;
+  border-left: 5px solid #ba3009;
+  padding-left: 10px;
+}
+
+div#left ul {
+  overflow: scroll;
+  width: 555px;
+  height: 145px;
+}
+
+div#left ul li {
+  font-size: 13px;
+  font-weight: normal;
+  color: #927e7a;
+  border-bottom: 1px dotted #d0d0d0;
+  line-height: 32px;
+}
+
+div#left ul li span {
+  font-size: 12px;
+  font-weight: normal;
+  color: #b5b300;
+  margin-right: 15px;
 }
 
 /* ========================================
@@ -161,8 +194,31 @@ div#left {
 div#right {
   width: 365px;
   height: 198px;
-  background-color: green;
   float: left;
+}
+
+div#right ul li {
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+
+div#right ul li a {
+  width: 225px;
+  height: 65px;
+  display: block;
+  font-size: 17px;
+  font-weight: bold;
+  color: #734339;
+  text-decoration: none;
+  padding-left: 140px;
+}
+
+div#right ul li a#contact {
+  background: url(images/contact.jpg);
+}
+
+div#right ul li a#blog {
+  background: url(images/blog.jpg);
 }
 
 div.clear {
